@@ -1,7 +1,13 @@
-#Calendarデモ
+# Calendarデモ
 
 Vue+Nuxt+Vuetifyによるスケジューラーデモです。
 サーバーサイドとの連携にはGraphQLを使用しています。
+
+![mstsc_PDjOay2ZwI](https://user-images.githubusercontent.com/111565106/185811726-5306382a-0340-4b34-9f9a-52f01a2e5c10.png)
+
+### 動画デモ
+
+https://user-images.githubusercontent.com/111565106/185811655-68d8ebbd-8d34-44ba-adc7-660cbbce9f65.mp4
 
 ### フレームワーク、ライブラリ
 * パッケージマネージャ
@@ -9,7 +15,6 @@ Vue+Nuxt+Vuetifyによるスケジューラーデモです。
 * ベースフレームワーク
   * Vue
   * Nuxt
-  * Vuetify
 * UIライブラリ
   * Vuetify
 * GraphQLクライアント
