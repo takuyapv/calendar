@@ -23,8 +23,10 @@ https://user-images.githubusercontent.com/111565106/185811655-68d8ebbd-8d34-44ba
 ### 使用言語
 
 TypescriptとJavascriptを併用しています。
+
 メインとなるpages/calendar.vueではTypescriptでコーディングしています。
-components/Calendar.vueでは、Vuetifyのサイトがjavascriptをベースに解説しているので、Typescriptに変換する手間やメンテナンス性を考慮してjavascriptのままにしてあります。
+
+components/Calendar.vueではVuetifyのサイトがjavascriptをベースに解説しているので、Typescriptに変換する手間やメンテナンス性を考慮してjavascriptのままにしてあります。
   
 ### ビルド、セットアップ
 
