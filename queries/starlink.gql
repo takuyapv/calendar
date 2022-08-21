@@ -1,0 +1,7 @@
+query schedules{
+ schedules{
+  	id
+  	start
+  end
+	}
+}
