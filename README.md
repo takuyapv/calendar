@@ -13,21 +13,19 @@ Vue+Nuxt+Vuetifyによるスケジューラーデモです。
 * GraphQLクライアント
   * nuxt-graphql-request
   
-### 使用方法
-
-事前にバックエンドサーバーを起動しておく必要があります。
-
-#### 開発用ローカルサーバの起動
-下記コマンド実行後、ブラウザから http://localhost:3000 を開いてください。
+### ビルド、セットアップ
 
 ```
-yarn dev
-```
+# 依存関係モジュールのインストール
+$ yarn install
 
-#### 本番用データのビルド
+# 開発用サーバ localhost:3000 (事前にバックエンド(API)サーバーを起動しておく必要があります。)
+$ yarn dev
 
-distディレクトリ内に必要なstaticファイルが作成されます。
-```
-yarn generate
-```
+# プロダクト用サーバ server
+$ yarn build
+$ yarn start
 
+# 静的プロジェクトの書き出し
+$ yarn generate
+```
