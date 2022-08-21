@@ -1,3 +1,5 @@
+#Calendarデモ
+
 Vue+Nuxt+Vuetifyによるスケジューラーデモです。
 サーバーサイドとの連携にはGraphQLを使用しています。
 
@@ -12,6 +14,12 @@ Vue+Nuxt+Vuetifyによるスケジューラーデモです。
   * Vuetify
 * GraphQLクライアント
   * nuxt-graphql-request
+
+### 使用言語
+
+TypescriptとJavascriptを併用しています。
+メインとなるpages/calendar.vueではTypescriptでコーディングしています。
+components/Calendar.vueでは、Vuetifyのサイトがjavascriptをベースに解説しているので、Typescriptに変換する手間やメンテナンス性を考慮してjavascriptのままにしてあります。
   
 ### ビルド、セットアップ
 
